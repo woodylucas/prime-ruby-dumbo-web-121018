@@ -4,6 +4,6 @@ def prime?(num)
     true
     elsif num <= 3 
     false 
-  else (2.. num/2).none?
+  else (2.. num/2).none? do |x|
   end 
 end 
